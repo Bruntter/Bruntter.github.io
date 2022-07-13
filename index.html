@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>Ritter World</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <main>
+      <section>
+        <h1 id="cabeçalio">Opa , olá mundo!</h1>
+        <input type="text" id="campo-nome"  placeholder="Insira seu nome!">
+        <input type="button" value="OK!" onClick="exibeNome()">
+      </section>
+
+     
+        <!--exercicio 1 de html-->
+      <section>
+        <h1 id="corpo">Coloque o numero</h1>
+        <input type="number" id="campo-numero"  placeholder="Insira o numero!">
+        <input type="button" value="OK!" onClick="exibeNumero()">
+      </section>
+
+        <!--exercicio 2 de html-->
+
+      
+    <section>
+        <h1 id="numeros-variados">Numeros mais ou menos.</h1>
+        <h4 >escolha um numero inicial</h4>
+
+        <input type="numbero" id="campo-numerico" placeholder="insira um numero inicial">
+        <h4 >escolha um numero final</h4>
+
+        <input type="numbero" id="campo-numerico01" placeholder="insira um numero final">
+        <h4 >quantidade de numeros</h4>
+
+        <input type="numbero" style="width: 210px;" id="d" placeholder="quantidade de numeros aleatorio">
+        <input type="button" value="OK" onClick="aleatorio ()">
+        
+        <h1 id="resultado"></h1>
+    </section>
+
+
+           <!--exercicio 3 de html-->
+    <section>
+        <h3 >Ensire o valor minimo!</h3>
+        <input type="number" placeholder="Insire aqui!" id="minimo">
+        
+        <h3 >Ensire o valor maximo!</h3>
+        <input type="number" placeholder="Insire aqui!" id="maximo">
+            
+        <h3 >Ensire a quantidade!</h3>
+        <input type="number" placeholder="Insire aqui!" id="quantidade">
+        
+        <h3 >Confirme aqui seus valores!</h3>
+        <input type="button" value="Valores" onClick="aleatorio ()">
+        <h2 id="resultadoV"></h2>
+    </section>
+
+    </main>
+</body>
+</html>
